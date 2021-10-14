@@ -5,13 +5,13 @@ let teams=[
     {
         name:"Dinamo",
         url:"/images/dinamo.png",
-        cota:0,
+        cota:5,
         score:0
     },
 
 
     {
-        name:"CFR Cluf",
+        name:"CFR Cluj",
         url:"/images/cfr.png",
         cota:0,
         score:0
