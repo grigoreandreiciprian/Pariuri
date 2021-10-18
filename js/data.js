@@ -5,7 +5,7 @@ let teams=[
     {
         name:"Dinamo",
         url:"/images/dinamo.png",
-        cota:5,
+        cota:0,
         score:0
     },
 

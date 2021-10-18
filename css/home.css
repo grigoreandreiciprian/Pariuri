@@ -149,16 +149,16 @@ body{
 .team{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
 }
 
 
 
 .pariu{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr ;
     width: 50%;
     text-align: center;
 }
@@ -179,5 +179,17 @@ body{
     margin: 1% 0 0 10%;
     text-align: center;
     color: red;
+}
+
+
+#reset{
+    margin-top: 5%;
+}
+
+
+.scor{
+    background-color: white;
+    padding: 2px 5px;
+    color: black;
 }
 
