@@ -5,103 +5,191 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
-    background-color: red;
+    font-size: 1.2em;
+    /* background-color: rgb(93, 194, 35); */
 }
 
 
-
-
-#titlu{
-    text-align: center;
-    background-color:green;
-    padding: 20px;
-    margin-top: 0px;
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5%; */
+    /* border: 2px solid red; */
+    background-color: #eee
 }
+
+.title img{
+    width: 4%;
+}
+
+
+#minge{
+    margin-right: 3%;
+}
+
+#trifoi{
+    margin-left: 3%;
+}
+
 
 
 .main{
+    background-image: url("/images/soccer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 0px;
+   width: 100%;
+   height: 100vh
+}
+.main h1{
+    margin-top:0px;
+}
+
+.shadow{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.main button{
+    padding: 10px 20px;
+    background-color:green;
+    color: red;
+    font-size: 1.2em;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+.text h2{
+    color: red;
+    margin: 0px;
+}
+
+
+
+.echipa img{
+    width: 60%;
+}
+
+.design{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 50%;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+.line{
+
+    border: 1px solid red;
+    width: 100%;
+    padding: 0px 70px 0 70px;
+    /* height: 100%; */
+    margin: 5%;
+}
+
+.vs{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+.echipe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:20px
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle button{
+    padding: 10px 20px;
+    background-color:green;
+    color: red;
+    font-size: 1.2em;
+    margin-top: 5%;
+}
+
 
 .echipa{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
-    margin: 2%;
+}
+
+
+.team img{
     width: 50%;
 }
 
-.echipa img{
-    width:100%;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.scor{
-    width: 30px;
-    height: 30px;
-    border: 2px solid black;
-    background-color: white;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-
-.btn{
-    width: 20%;
-    display: block;
-    margin: 5% auto;
-    padding: 15px;
-    background-color: green;
-    color: white;
-    font-size: 1.2em;
-
-}
-
-
-
-.suma{
-    width: 100px;
-    height: 50px;
-    background-color: green;
-    color: white;
-    margin: 2%;
+.team{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* text-align: left; */
+}
+
+
+
+.pariu{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    width: 50%;
+    text-align: center;
 }
 
 
 .cutiuta{
     display: flex;
     flex-direction: row;
-}
-
-
-  .pariata{
-      display: flex;
-      flex-direction: row;
-      width: 50%;
-      text-align: center;
-  }
-.pariata img{
     width: 50%;
-    display: block;
-    margin: auto;
+    margin-top: 5%;
 }
 
-.pariu{
-    width: 50%;
-    margin-left: 10%;
+.cutiuta h1{
+    margin: 0px;
 }
 
+.cutiuta h2{
+    margin: 1% 0 0 10%;
+    text-align: center;
+    color: red;
+}
+
+
+#reset{
+    margin-top: 5%;
+}
+
+
+.scor{
+    background-color: white;
+    padding: 2px 5px;
+    color: black;
+}
 
